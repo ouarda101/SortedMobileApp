@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_theory"
+        android:icon="@drawable/ic_baseline_theory_24"
+        android:title="@string/bottom_navigation_menu_theory" />
+
+    <item
+        android:id="@+id/nav_steps"
+        android:icon="@drawable/ic_baseline_sort_24"
+        android:title="@string/bottom_navigation_menu_steps"
+        />
+
+    <item
+        android:id="@+id/nav_code"
+        android:icon="@drawable/ic_baseline_code_24"
+        android:title="@string/bottom_navigation_menu_code" />
+</menu>

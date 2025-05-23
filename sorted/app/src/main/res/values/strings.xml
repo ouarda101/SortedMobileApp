@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sorted04</string>
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_steps">Steps</string>
+    <string name="bottom_navigation_menu_theory">Theory</string>
+    <string name="bottom_navigation_menu_code">Code</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

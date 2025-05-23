@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3c04e0"
+    android:layout_height="300dp"
+    tools:context=".TriFragment">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button1"
+        android:backgroundTint="#FFFFFF"
+        android:digits="0123456789,-"
+        android:ems="10"
+        android:fontFamily="@font/quitemagical"
+        android:hint="  Exemple: 1,5,-6,3,0"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="1dp"
+        android:textColor="#0F0F10"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/output"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/button1"
+        android:backgroundTint="#f9b52a"
+        android:ems="10"
+        android:fontFamily="@font/quitemagical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="1dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/sort"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="13dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="27dp"
+        android:fontFamily="@font/quitemagical"
+        android:text=" Entrer 5 nombres séparés par une virgule "
+        app:layout_constraintBottom_toTopOf="@+id/input"
+        app:layout_constraintEnd_toEndOf="@+id/output"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sort"
+        android:layout_width="73dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#f400fe"
+        android:text="Sort"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/output" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

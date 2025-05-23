@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/gradient_list"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/belgradoregular"
+        android:text="selectionner un algorithme de tri"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="195dp"
+        android:layout_height="411dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.278"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/selection"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:backgroundTint="#f5b86a"
+            android:text="Tri par selection"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/insertion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:backgroundTint="#dd2c6d"
+            android:text="Tri par insertion"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/quick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:backgroundTint="#8d2768"
+            android:text="Tri rapide"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/merge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:backgroundTint="#46ba9b"
+            android:text="Tri par fusion"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/bubble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:backgroundTint="#50dbdb"
+            android:text="Tri a bulles"
+            android:textColor="@color/design_default_color_background"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
